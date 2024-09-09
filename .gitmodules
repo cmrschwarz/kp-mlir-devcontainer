@@ -1,0 +1,6 @@
+[submodule "kp-mlir-sigi-frontend"]
+	path = kp-mlir-sigi-frontend
+	url = https://github.com/tud-ccc/kp-mlir-sigi-frontend.git
+[submodule "kp-mlir-sigi-mlir"]
+	path = kp-mlir-sigi-mlir
+	url = https://github.com/tud-ccc/kp-mlir-sigi-mlir

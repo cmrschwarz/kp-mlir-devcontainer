@@ -1,0 +1,27 @@
+{
+    "name": "llvm-devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "student",
+    "updateRemoteUserUID": false,
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/student/kp-mlir,type=bind",
+    "workspaceFolder": "/home/student/kp-mlir",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vadimcn.vscode-lldb",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "scalameta.metals",
+                "xaver.clang-format",
+                "llvm-vs-code-extensions.vscode-mlir",
+                "revng.llvm-ir",
+                "AlanZhang.open-symlink-source",
+                "donjayamanne.githistory"
+            ],
+            "settings": {
+                "clangd.path": "/usr/bin/clangd"
+            }
+        }
+    }
+}
