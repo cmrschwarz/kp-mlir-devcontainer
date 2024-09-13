@@ -20,7 +20,11 @@
                 "donjayamanne.githistory"
             ],
             "settings": {
-                "clangd.path": "/usr/bin/clangd"
+                "clangd.path": "/usr/bin/clangd",
+                "clangd.arguments": [
+                    "-background-index",
+                    "-compile-commands-dir=${workspaceFolder}/kp-mlir-sigi-mlir/build-Debug"
+                ]
             }
         }
     }
